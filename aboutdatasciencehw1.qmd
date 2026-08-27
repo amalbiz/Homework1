@@ -1,0 +1,38 @@
+---
+title: "About Data Science HW1"
+author: "AMJ"
+format: html
+editor: visual
+---
+
+### My Responses
+
+Being a data scientist is about using your skills in mathematics and computer science to find patterns and solve problems using big data.
+
+- Statisticians and data scientists both work to analyze and interpret large amounts of data.
+- They both use statistical methods to come up with answers
+- Data scientists might work more with the technical/software side to gather data while statisticians work more within the math space.
+
+I view myself as a data scientist because I have a background in computer science so I'm fine with working with software. I also like working with math/statistics and that is all part of being a good data scientist.
+
+### R Snippet
+
+Here I am creating an object called 'y' within R as specified.
+
+```{r}
+y <- density(iris$Petal.Width)
+
+class(y)
+typeof(y)
+str(y)
+```
+
+The code above is to determine the class, type, and structure of the object y.
+
+```{r}
+#| echo: false
+
+plot(y)
+```
+You should see the plot but the code should not render!
+

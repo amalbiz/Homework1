@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "aboutdatasciencehw1.html",
+    "href": "aboutdatasciencehw1.html",
+    "title": "About Data Science HW1",
+    "section": "",
+    "text": "My Responses\nBeing a data scientist is about using your skills in mathematics and computer science to find patterns and solve problems using big data.\n\nStatisticians and data scientists both work to analyze and interpret large amounts of data.\nThey both use statistical methods to come up with answers\nData scientists might work more with the technical/software side to gather data while statisticians work more within the math space.\n\nI view myself as a data scientist because I have a background in computer science so I’m fine with working with software. I also like working with math/statistics and that is all part of being a good data scientist.\n\n\nR Snippet\nHere I am creating an object called ‘y’ within R as specified.\n\ny &lt;- density(iris$Petal.Width)\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nThe code above is to determine the class, type, and structure of the object y.\n\n\n\n\n\n\n\n\n\nYou should see the plot but the code should not render!"
+  }
+]
